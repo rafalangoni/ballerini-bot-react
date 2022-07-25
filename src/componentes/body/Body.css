@@ -1,6 +1,34 @@
+:root{
+    --cor-principal: #FFF2E7;
+}
+
 .secao__principal{
     align-items: center;
+    color: var(--cor-principal);
     display: flex;
     justify-content: space-between;
     margin: 0 2rem;
+}
+
+.secao__texto{
+    color: var(--cor-principal);
+    margin: 4rem 0;
+}
+
+.botao{
+    background: #ECD6C4;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    color: #2F2325;
+    font-family: var(--font-sarala);
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    border: none;
+    width: 160px;
+}
+
+.botao:hover{
+    background-color: beige;
+    transition: 0.3s;
 }

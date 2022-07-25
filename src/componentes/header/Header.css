@@ -1,8 +1,10 @@
 .cabecalho{
     align-items: center;
+    border-bottom: 0.3px solid #FFF2E7;
     display: flex;
     justify-content: space-around;
     margin-top: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .cabecalho__menu{
@@ -13,5 +15,10 @@
 }
 
 .cabecalho__menu li{
+    color: #FFF2E7;
     cursor: pointer;
+}
+
+.cabecalho__link:hover{
+    color: beige;
 }
