@@ -1,0 +1,17 @@
+.cabecalho{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cabecalho__menu li{
+    cursor: pointer;
+}
